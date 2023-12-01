@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://dre1597.github.io/fm-interactive-rating-component/)
-- Live Site URL: [GitHub Pages](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/vanilla-solution-1EMk21roLM)
+- Live Site URL: [GitHub Pages](https://dre1597.github.io/fm-interactive-rating-component/m)
 
 ## My process
 
