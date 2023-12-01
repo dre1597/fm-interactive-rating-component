@@ -93,6 +93,7 @@ main {
             font-size: 1.5rem;
             filter: brightness(1.2);
             color: var(--light-grey);
+            cursor: pointer;
 
             &:hover {
                 background-color: var(--primary);
@@ -107,8 +108,8 @@ main {
     }
 
     & .submit {
-        background-color: var(--white);
-        color: var(--primary);
+        background-color: var(--primary);
+        color: var(--white);
         border: none;
         border-radius: 2rem;
         font-size: 1.5rem;
@@ -116,6 +117,12 @@ main {
         text-transform: uppercase;
         letter-spacing: 1px;
         padding: 1rem;
+        cursor: pointer;
+
+        &:hover {
+            background-color: var(--white);
+            color: var(--primary);
+        }
     }
 }
 
