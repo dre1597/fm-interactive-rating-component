@@ -113,7 +113,6 @@ main {
         border: none;
         border-radius: 2rem;
         font-size: 1.5rem;
-        font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 1px;
         padding: 1rem;
@@ -137,6 +136,30 @@ main {
         border-radius: 2rem;
         background-color: var(--dark-blue);
         filter: brightness(1.2);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    main {
+        max-width: 32rem;
+    }
+
+    .rating-card, .thank-you {
+        gap: 2rem;
+    }
+
+    .rating-card {
+        & .rating {
+            & .btn-rating {
+                width: 4rem;
+                height: 4rem;
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+    .description {
+        font-size: 1.3rem;
     }
 }
 
