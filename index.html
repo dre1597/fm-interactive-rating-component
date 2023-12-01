@@ -16,33 +16,62 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <link href="styles/reset.css" rel="stylesheet">
     <link href="styles/styles.css" rel="stylesheet">
+
+    <script defer src="index.js"></script>
   </head>
   <body>
+    <main>
+      <section class="rating-card">
+        <div class="star">
+          <img alt="Star icon" src="./images/icon-star.svg"/>
+        </div>
 
-    <!-- Rating state start -->
+        <div class="text-content">
+          <h1 class="title">How did we do?</h1>
 
-    How did we do?
+          <p class="description">
+            Please let us know how we did with your support request. All feedback is appreciated
+            to help us improve our offering!
+          </p>
+        </div>
 
-    Please let us know how we did with your support request. All feedback is appreciated
-    to help us improve our offering!
+        <ul class="rating">
+          <li>
+            <button class="btn-rating" type="button">1</button>
+          </li>
+          <li>
+            <button class="btn-rating" type="button">2</button>
+          </li>
+          <li>
+            <button class="btn-rating" type="button">3</button>
+          </li>
+          <li>
+            <button class="btn-rating" type="button">4</button>
+          </li>
+          <li>
+            <button class="btn-rating" type="button">5</button>
+          </li>
+        </ul>
 
-    1 2 3 4 5
+        <button class="submit" type="button">Submit</button>
+      </section>
 
-    Submit
+      <section class="thank-you hidden">
+        <div class="illustration">
+          <img alt="Thank you illustration" src="./images/illustration-thank-you.svg"/>
+        </div>
 
-    <!-- Rating state end -->
+        <div class="selection">
+          You selected <span>0</span> out of 5
+        </div>
 
-    <!-- Thank you state start -->
+        <h2 class="title">Thank you!</h2>
 
-    You selected <!-- Add rating here --> out of 5
-
-    Thank you!
-
-    We appreciate you taking the time to give a rating. If you ever need more support,
-    don’t hesitate to get in touch!
-
-    <!-- Thank you state end -->
-
+        <p class="description">We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!
+        </p>
+      </section>
+    </main>
 
     <footer class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
